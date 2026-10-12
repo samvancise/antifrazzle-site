@@ -10,7 +10,7 @@ The mailbox must be configured separately in Lark.
 ## Local preview
 
 Serve this directory with a static HTTP server, for example
-`python -m http.server 4174 --bind 127.0.0.1`, then visit http://127.0.0.1:4174.
+`py -3 -m http.server 4174 --bind 127.0.0.1`, then visit http://127.0.0.1:4174.
 
 ## Hosting
 
