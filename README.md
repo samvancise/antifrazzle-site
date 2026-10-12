@@ -20,12 +20,13 @@ Hosting is GitHub Pages from the root of `main` in
 The apex has GitHub Pages' four A records (185.199.108.153 through
 185.199.111.153); `www` is a CNAME to `samvancise.github.io`. GitHub's domain
 health check passed for both names on October 12, 2026. The existing Lark MX
-records and solitaire QA subdomain are unchanged. HTTPS certificate issuance
-and enforcement remain pending.
+records and solitaire QA subdomain are unchanged. HTTPS is enabled and enforced;
+`https://www.antifrazzle.com` redirects to `https://antifrazzle.com`.
 
 Desktop and 390-pixel phone browser checks confirmed the supplied logo loads,
 the contact link targets the correct address, and the page has no horizontal
-overflow. HTTP serving on the custom domain was verified after the DNS change.
+overflow. HTTPS serving on the custom domain and the `www` redirect were verified
+after the DNS change.
 
 Only this website directory belongs in the public repository; never copy game
 provider documents, credentials, or local game data into it.
